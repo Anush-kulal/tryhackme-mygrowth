@@ -1,0 +1,87 @@
+# Networking Core Protocols
+
+## DNS (Domain Name System)
+- **Ports:** UDP Port 53, TCP Port 53
+
+DNS translates human-readable domain names (like www.google.com) into machine-readable IP addresses (like 192.168.1.1). Port 53 is used for this service. UDP is typically used for standard DNS queries because it's faster, while TCP is used for larger queries like zone transfers.
+
+### Types of DNS Records
+
+#### A (Address) Record
+Maps a domain name to an IPv4 address. For example, it tells your browser that `example.com` is located at `192.0.2.1`.
+
+#### AAAA (Quad-A) Record
+Maps a domain name to an IPv6 address. Similar to the A record, but used for the newer, longer IPv6 addresses (e.g., `2001:0db8:85a3:0000:0000:8a2e:0370:7334`).
+
+#### CNAME (Canonical Name) Record
+Maps an alias domain name to its true, canonical domain name. For example, you might use a CNAME so `www.example.com` points to `example.com`, meaning you only need one A record to manage the IP address.
+
+#### MX (Mail Exchanger) Record
+Specifies the mail server responsible for accepting email messages on behalf of a domain. It tells email systems where to route emails sent to that domain.
+
+### DNS Reconnaissance Tools
+
+- `nslookup www.example.com`: Used to query DNS servers to find the IP address of a domain name.
+- `tshark -r dns-query.pcapng -Na`: Used to analyze and read captured network packets from a file. Note: `tshark` must be installed on the system, and capturing live packets (unlike reading from a file) typically requires root privileges.
+- `whois example.com`: Used to retrieve registration information about a domain name. Note: `whois` must be installed on the system.
+
+## HTTP(S) - Web Traffic (Ports 80, 443)
+Common methods (commands) a web browser issues to a server:
+- **GET**: Used to retrieve data from the server.
+- **POST**: Used to send data to the server.
+- **PUT**: Used to update existing data on the server.
+- **DELETE**: Used to delete data from the server.
+
+## FTP - File Transfer Protocol (Port 21)
+Common commands:
+- **USER**: Used to specify the username for login.
+- **PASS**: Used to provide the password for login.
+- **LIST**: Used to list the files and directories on the server.
+- **RETR**: Used to retrieve (download) a file from the server.
+- **STOR**: Used to store (upload) a file on the server.
+- **QUIT**: Used to close the connection and quit.
+
+## SMTP - Simple Mail Transfer Protocol (Port 25)
+Used for sending emails and communication between mail servers.
+Common commands:
+- **HELO / EHLO**: Used by the client to identify itself to the server.
+- **MAIL FROM**: Specifies the sender's email address.
+- **RCPT TO**: Specifies the recipient's email address.
+- **DATA**: Indicates the start of the email message body.
+- **QUIT**: Closes the connection.
+
+## POP3 - Post Office Protocol version 3 (Port 110)
+Used for receiving emails. By default, it downloads the emails and deletes them from the server.
+Common commands:
+- **USER**: Specifies the username.
+- **PASS**: Specifies the password.
+- **STAT**: Returns the number of messages and total size.
+- **LIST**: Lists the messages and their sizes.
+- **RETR**: Retrieves a specific message.
+- **DELE**: Marks a message for deletion.
+- **QUIT**: Commits deletions and closes the connection.
+
+## IMAP - Internet Message Access Protocol (Port 143)
+Used for receiving emails. It does the same underlying job as POP3 but is more advanced and has more features. It does not automatically delete emails from the server after downloading them, and it allows organizing emails into folders.
+Common commands:
+- **LOGIN**: Authenticates the user with a username and password.
+- **SELECT**: Selects a mailbox (e.g., INBOX) to access its messages.
+- **FETCH**: Retrieves data associated with a message.
+- **STORE**: Alters data associated with a message (e.g., marking it as read or deleted).
+- **LOGOUT**: Closes the connection.
+
+
+Question and Answer
+
+1.Which DNS record type refers to IPv6?
+Answer: AAAA
+2.Which DNS record type refers to the email server?
+Answer: MX
+
+1.When was the x.com record created? Provide the answer in YYYY-MM-DD format.
+Answer: 1993-04-02
+2.When was the twitter.com record created? Provide the answer in YYYY-MM-DD format.
+Answer: 2000-01-21
+
+
+
