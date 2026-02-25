@@ -83,5 +83,21 @@ Answer: 1993-04-02
 2.When was the twitter.com record created? Provide the answer in YYYY-MM-DD format.
 Answer: 2000-01-21
 
+1.Use telnet to access the file flag.html on MACHINE_IP. What is the hidden flag?
+Answer: THM{TELNET-HTTP}
 
+1.Using the FTP client ftp on the AttackBox, access the FTP server at MACHINE_IP and retrieve flag.txt. What is the flag found?
+Answer: THM{FAST-FTP}
 
+1.Which SMTP command indicates that the client will start the contents of the email message?
+Answer: DATA
+2.What does the email client send to indicate that the email message has been fully entered?
+Answer: .
+
+1.Looking at the traffic exchange, what is the name of the POP3 server running on the remote server?
+Answer:Dovecot
+2.Use telnet to connect to MACHINE_IP’s POP3 server. What is the flag contained in the fourth message?
+Answer: THM{TELNET_RETR_EMAIL}
+
+1.What IMAP command retrieves the fourth email message?
+Answer: FETCH 4 body[]
