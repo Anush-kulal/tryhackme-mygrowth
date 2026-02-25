@@ -1,2 +1,8 @@
 # tryhackme-mygrowth
-This is a documentation of my growth.
+TryHackMe/
+│
+├── PreSecurity/
+├── SOC-Level-1/
+├── Network-Fundamentals/
+├── Web-Attacks/
+└── Blue-Team/
