@@ -2,7 +2,7 @@
 TryHackMe/
 
 - PreSecurity
+- Cyber Security 101
 - SOC-Level-1
-- Network-Fundamentals
 - Web-Attacks
 - Blue-Team
