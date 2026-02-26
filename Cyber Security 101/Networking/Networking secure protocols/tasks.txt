@@ -15,3 +15,95 @@ TLS background activity
 *CA verifies the request and creates a Certificate and sent back to the Server Administrater.
 *Server Administrater installs the Certificate on the server.
 *Now the server is ready to use TLS.
+
+After getting we use to identify the server or client to other. It is validating of signature.
+For a host to confirm validity of certificate,they must install the signing Authority.
+
+##HTTPS
+HTTP relies on TCP port 80.
+HTTPS relies on TLS port 443.
+
+Common steps before client ,server estblishment in HTTP
+1.Establishes the TCP handshake with the target server.
+2.Communicate using the HTTP Protocol.
+
+Common steps before client ,server estblishment in HTTPS
+1.Establishes the TCP handshake with the target server.
+2.Establishes the TLS session.
+3.Communicate using the HTTPS Protocol.
+
+##SMTPS,POP3S,IMAPS
+It is related to mail server.
+SMTPS uses TCP port 465.
+POP3S uses TCP port 995.
+IMAPS uses TCP port 993.
+Here also suffix 'S' means Secure.Means TLS is used to secure the data.
+
+##SSH
+SSH uses TCP port 22.
+Before SSH, TELNET where used for remote login.Because of the security reason SSH is used instead of TELNET.
+OpenSSH is a free and open-source implementation of the SSH protocol.
+
+Benefits of SSH
+1.Encryption:SSH encrypts the data in transit, preventing eavesdropping and man-in-the-middle attacks.
+2.Secure Authentication:SSH provides secure authentication using username and password or public key cryptography.
+3.Integrity:SSH ensures the integrity of the data by using cryptographic hashes to detect any tampering or modification during transit.
+4.Port Forwarding:SSH allows you to forward ports, enabling you to securely access services on a remote network.
+5.Tunneling:SSH allows you to create secure tunnels for tunneling other protocols, such as HTTP, FTP, and VNC.
+6.File Transfer:SSH provides secure file transfer using SCP and SFTP protocols.
+
+Syntax
+ssh username@hostname
+
+ssh username@hostname -X
+-X is required for GUI applications.Which is on unix system.
+
+##SFTP and FTPS
+SFTP uses TCP port 22.
+FTPS uses TCP port 21.
+
+SFTP is a secure file transfer protocol that uses SSH to encrypt the data in transit.
+FTPS is a secure file transfer protocol that uses TLS to encrypt the data in transit.
+FTPS is tricky to configure.So people use SFTP instead of FTPS.
+
+Syntax
+sftp username@hostname
+
+##VPN(Virtual Private Network)
+VPN is used to secure the data in transit.It is used to create a secure tunnel between the client and the server.
+VPN uses TLS to secure the data in transit.
+Local ISP cannot see the data in transit.
+
+##Classing Notes
+3 main barnch to secure network tarnsport
+1.TLS
+2.SSH
+3.VPN
+
+
+1.What is the protocol name that TLS upgraded and built upon?
+Answer: SSL
+
+2.Which type of certificates should not be used to confirm the authenticity of a server?
+Answer: salf-signed certificate
+
+1.How many packets did the TLS negotiation and establishment take in the Wireshark HTTPS screenshots above?
+Answer: 8
+
+2.What is the number of the packet that contain the GET /login when accessing the website over HTTPS?
+Answer: 10
+
+1.If you capture network traffic, in which of the following protocols can you extract login credentials: SMTPS, POP3S, or IMAP?
+Answer: IMAP
+
+1.What is the name of the open-source implementation of the SSH protocol?
+Answer: OpenSSH
+
+1.Click on the View Site button to access the related site. Please follow the instructions on the site to obtain the flag.
+Answer: THM{Protocols_secur3d}
+
+1.What would you use to connect the various company sites so that users at a remote office can access resources located within the main branch?
+Answer: VPN
+
+1.One of the packets contains login credentials. What password did the user submit?
+Answer: THM{B8WM6P}
