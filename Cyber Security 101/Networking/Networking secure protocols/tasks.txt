@@ -1,0 +1,17 @@
+#NetworkingSecure Protocols
+
+Normal previous protocols are not secure, because of that hacker can easily intercept the data and can read it. So we use secure protocols to secure the data.
+So,Transport Layer Security (TLS) is used to secure the data.
+Previously HTTP,POP3,IMAP,SMTP and TELNET protocols are not secure, for the security purpose we use TLS to secure and HTTP becomes HTTPS, POP3 becomes POP3S, IMAP becomes IMAPS, SMTP becomes SMTPS and TELNET becomes SSH.
+
+##TLS(Transport Layer Security)
+TLS plays key role play in modern networking. Before  that SSL(Secure Socket Layer) was used but now it is deprecated and TLS is used.
+Which is basis of TLS.
+It is used in transport layer to secure the data.
+DNS becomes DoT(DNS over TLS), HTTP becomes HTTPS(Hyper Text Transfer Protocol Secure), POP3 becomes POP3S(Post Office Protocol version 3 Secure), IMAP becomes IMAPS(Internet Message Access Protocol Secure), SMTP becomes SMTPS(Simple Mail Transfer Protocol Secure) and TELNET becomes SSH(Secure Shell).
+
+TLS background activity
+*Server Administrater creates a Certificate Signing Request(CSR) and sent to Certificate Authority(CA).
+*CA verifies the request and creates a Certificate and sent back to the Server Administrater.
+*Server Administrater installs the Certificate on the server.
+*Now the server is ready to use TLS.
