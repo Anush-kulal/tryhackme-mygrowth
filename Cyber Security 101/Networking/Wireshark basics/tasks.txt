@@ -1,0 +1,13 @@
+#Wireshark Basics
+It is most used network protocol analyzer.
+It is can be used in multiple purposes:
+*Detecting and troubleshooting network problems,such as network load failure points congestion.
+*Detecting security anomalies,such as rogue host,abnormal traffic patterns,suspicious traffic.
+*Investigating an learning protocols details,such as response codes and payload data.
+
+5 Setting in GUI of Wireshark
+*Toolbar
+*Display Filter
+*Recent files
+*Capture filter and Interfaces 
+*Status bar
