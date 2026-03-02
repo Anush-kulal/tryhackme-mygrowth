@@ -1,0 +1,12 @@
+##Packet Dissection
+It is the dissecting the packet with protocol dissection and some scripting for investigation and analysis.
+
+Today i learnt like if i double click on any packet it will show the packet details and if i click on any protocol it will show the protocol details.
+-Frame:It is at the layer 1 of OSI model.
+-Source and Destination MAC address:It is at the layer 2 of OSI model.
+-Source and Destination IP address:It is at the layer 3 of OSI model.
+-Source and Destination port:It is at the layer 4 of OSI model.
+-Protocol:It is at the layer 5 of OSI model.
+-Protocol error:It is at the layer 6 of OSI model.
+-Application:It is at the layer 6 of OSI model.
+-Application data:It is at the layer 7 of OSI model.
