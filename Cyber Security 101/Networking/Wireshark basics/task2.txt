@@ -2,6 +2,7 @@
 It is the dissecting the packet with protocol dissection and some scripting for investigation and analysis.
 
 Today i learnt like if i double click on any packet it will show the packet details and if i click on any protocol it will show the protocol details.
+The below sub sections are the details of the packet.After double clicking on any packet it will show the packet details.
 -Frame:It is at the layer 1 of OSI model.
 -Source and Destination MAC address:It is at the layer 2 of OSI model.
 -Source and Destination IP address:It is at the layer 3 of OSI model.
