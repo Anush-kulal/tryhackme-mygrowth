@@ -1,0 +1,35 @@
+##Packet filtering
+Their are 2filtering methods in wireshark.
+1)Display filters
+2)Capture filters
+
+###Display filters
+Display filters are used to filter the packets in the list of packets based on the packet number.
+
+###Capture filters
+Capture filters are used to filter the packets in the list of packets based on the packet number.
+
+Their are 2 rules in investigation.
+1.one is query typing.
+2.another is right click menu.
+
+
+###Apply as filter
+It is used to apply the filter to the list of packets based on the packet number.
+
+###Conversation filter
+
+###Colourise conversation
+
+###Prepare as filter
+
+###Apply as column
+
+###Follow stream
+Analyze -->Follow TCP/UDP/HTTP stream
+
+
+###Simple display filter queries
+Filter by protocol name
+Filter by protocol port number
+Filter by ip address
