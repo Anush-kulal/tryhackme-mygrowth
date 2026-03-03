@@ -1,0 +1,55 @@
+##Packet navigation
+###Packet number
+It help to navigate the packet in the list of packets.
+
+###Go to packet
+It uses go to button to navigate the packet in the list of packets based on the packet number.
+
+###Find packets
+It uses find button to find the packet in the list of packets based on the packet number or other parameters.
+Edit-->Find packets
+
+Their are 2 cruicial packets in the list of packets.
+1.Knowing packet input type.
+2.Choosing search field.
+
+1)They accept 4 types display filters.
+Hex,strings and regex and display filters.                                          
+
+2)Packet list,packet details,packet bytes.
+
+###Mark packets
+It uses mark button to mark the packet in the list of packets based on the packet number.
+Edit-->Mark/unmark packets
+
+###packet comments
+It uses packet comments to add comments to the packet in the list of packets based on the packet number.
+Edit-->Packet comments
+
+###Export packet
+It uses export button to export the packet in the list of packets based on the packet number.
+File-->Export packet
+
+###Export object
+It uses export object button to export the object in the list of objects based on the object number.
+File-->Export object
+###Time display formate
+It uses time display formate button to change the time display formate in the list of packets based on the packet number.
+View-->Time display formate
+###Expert info
+It uses expert info button to show the expert info in the list of packets based on the packet number.
+View-->Expert info
+
+
+###QNA
+1.Use the "Exercise.pcapng" file to answer the questions. Search the "r4w" string in packet details. What is the name of artist 1?
+Ans:r4w8173
+
+2.Go to packet 12 and read the packet comments. What is the answer?
+Note: use md5sum <filename> terminal command to get MD5 hash
+
+911cd574a42865a956ccde2d04495ebf
+
+My approach:
+1.Go to packet 12 --> read the packet comments --> JPEG section --> right click --> export packet bytes and save file -->open terminal-->md5sum <filename>-->Result:911cd574a42865a956ccde2d04495ebf
+
