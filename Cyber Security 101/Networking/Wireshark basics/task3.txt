@@ -47,9 +47,13 @@ Ans:r4w8173
 
 2.Go to packet 12 and read the packet comments. What is the answer?
 Note: use md5sum <filename> terminal command to get MD5 hash
-
-911cd574a42865a956ccde2d04495ebf
+Ans:911cd574a42865a956ccde2d04495ebf
 
 My approach:
 1.Go to packet 12 --> read the packet comments --> JPEG section --> right click --> export packet bytes and save file -->open terminal-->md5sum <filename>-->Result:911cd574a42865a956ccde2d04495ebf
 
+3.There is a ".txt" file inside the capture file. Find the file and read it; what is the alien's name?
+Ans:PACKETMASTER
+
+4.Look at the expert info section. What is the number of warnings?
+Ans:1636
