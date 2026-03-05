@@ -1,2 +1,3 @@
 ##TCPDUMP
-*
+*TCPDUMP is basically a packet analyser same as wireshark, but it has only cli, where as wireshark has both GUI & CLI.
+*TCPDUMP tool & its libpcap library is based on c/c++.
