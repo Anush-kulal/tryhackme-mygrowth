@@ -1,3 +1,27 @@
 ##TCPDUMP
 *TCPDUMP is basically a packet analyser same as wireshark, but it has only cli, where as wireshark has both GUI & CLI.
 *TCPDUMP tool & its libpcap library is based on c/c++.
+
+Objective:
+1.Capture packets and save them to in file formate.
+2.Set a filter on the capture packets.
+3.Control how capture packets and dispalyed.
+
+*Majorly use through ssh.
+
+###Basic packet capture
+Specifty the network interface using 
+-i INTERFACE
+-i any
+-i eth0 (for specific interface)
+
+>ip a s  --->To know the network interface
+
+Save the capture packets to a file:
+-w FILENAME
+
+Read captured packets from a file:
+-r FILENAME
+
+Limit the number of captured packets:
+-c COUNT
