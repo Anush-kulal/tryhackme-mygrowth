@@ -1,0 +1,102 @@
+##TCPDUMP
+*TCPDUMP is basically a packet analyser same as wireshark, but it has only cli, where as wireshark has both GUI & CLI.
+*TCPDUMP tool & its libpcap library is based on c/c++.
+
+Objective:
+1.Capture packets and save them to in file formate.
+2.Set a filter on the capture packets.
+3.Control how capture packets and dispalyed.
+
+*Majorly use through ssh.
+
+###Basic packet capture
+Specifty the network interface using 
+-i INTERFACE
+-i any
+-i eth0 (for specific interface)
+
+>ip a s  --->To know the network interface
+
+Save the capture packets to a file:
+-w FILENAME
+
+Read captured packets from a file:
+-r FILENAME
+
+Limit the number of captured packets:
+-c COUNT
+
+*Don't resolve Ip adress & port number for DNS looks up and port number resolve -n each.
+for both -nn
+
+Produces verbose output to print more packets details -v
+Produces very verbose output -vv
+Produces very very verbose output -vvv
+
+In tcpdump we gave to specific to,what we are trying to capture,we cannot capture every packet once.
+
+###Filtering by Host
+In here we can capture specific the traffic with specific host server.
+
+>sudo tcpdump host example.com -w http.pcap
+
+we can capture packet both of src host and dst host.
+
+>sudo tcpdump src host example.com -w http.pcap
+>sudo tcpdump dst host example.com -w http.pcap
+
+###Filtering by Port
+In here we can capture specific the traffic with specific port number.
+
+>sudo tcpdump port 80 -w http.pcap
+
+we can capture packet both of src port and dst port.
+
+>sudo tcpdump src port 80 -w http.pcap
+>sudo tcpdump dst port 80 -w http.pcap
+
+###Filtering by Protocol
+In here we can capture specific the traffic with specific protocol.
+
+>sudo tcpdump -i ens5 icmp -n
+
+we can capture packet both of src protocol and dst protocol.
+
+>sudo tcpdump src icmp -n
+>sudo tcpdump dst icmp -network
+
+###ICMP(tcpdump)
+echo request & echo reply   --->ping command
+
+time exceeds --->traceroute command
+
+###Logical operators
+1.and: It is true if both conditions are true.
+ex:tcpdump host example.com and port 80 -w http.pcap
+2.or: It is true if at least one of the conditions is true.
+ex:tcpdump host example.com or port 80 -w http.pcap
+3.not: It is true if the condition is false.
+ex:tcpdump not host example.com -w http.pcap
+
+###Advanced Filtering
+In real life their can be thousands or millions of packets.So,it is difficult examine to each.
+For that,
+greater LENGTH:Filter that packet which is greater or equal to specified length.
+less LENGTH:Filter that packet which is less or equal to specified length.
+
+#Binary operation
+1.&:AND
+2.|:OR
+3:!:NOT
+
+#Header Bytes
+* proto[Expr:size]
+* ether[0]&1!=0 --->To shows packets sent to multicast address
+* ip[0]&0xf!=5 
+
+> tcpdump "tcp[tcpflags]==tcp-syn" --->to capture only syn flags
+> tcpdump "tcp[tcpflags] & tcp-syn!=0" --->to capture packets with atleast syn flags
+> tcpdump "tcp[tcpflags] &(tcp-syn|tcp-sck)!=0" at syn or ack
+
+###
+
