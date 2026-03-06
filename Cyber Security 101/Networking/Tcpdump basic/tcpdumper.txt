@@ -98,5 +98,19 @@ less LENGTH:Filter that packet which is less or equal to specified length.
 > tcpdump "tcp[tcpflags] & tcp-syn!=0" --->to capture packets with atleast syn flags
 > tcpdump "tcp[tcpflags] &(tcp-syn|tcp-sck)!=0" at syn or ack
 
-###
+###Displaying packets
+-q=quick output
+-e=print the link-level Header
+-A=packets data in ascii
+-xx=data in hexadecimal as hex
+-X=data in hex & ascii
 
+###-e
+tcpdump -e = displayed the MAC address 
+
+###ASCII means
+bytes--->english letter,number symbols.
+
+###packets in hexdecimal formate
+ASCII formate won't work if the contents have undergone encryption or even compression & also won't work for large that don't use the english alphabet.
+For this we use hexa regardless of any formate.
