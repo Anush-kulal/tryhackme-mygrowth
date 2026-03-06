@@ -1,0 +1,32 @@
+###NMAP Basic
+Learn how to use nmap to discover live hosts,find open ports , and detect services version.
+
+##Objectives of nmap
+1.Discover live hosts
+2.Find running services on the live hosts.
+3.Distinguish the different types of port scan
+4.Detect the version of running services.
+5.Control the timing.
+6.Formate the output.
+
+##ways thay uses nmap
+*Ip rangeusing '-':
+*Ip subnet using /:
+*Hostname:example.com
+
+Scanning a "Local" network
+>nmap -sn [IP_ADDRESS]
+
+When we scanning the local network we also get the MAC address of the hosts.
+
+nmap start by sending ARP request to the target host.
+
+> nmap -sn [IP_ADDRESS]
+It helps to discover live hosts without attempting to services runningon them.
+No port scan
+
+> namp -sL [IP_ADDRESS]
+Scan might be helpful if you want to discover the devices on network without making noise.
+List scan 
+Not sending any packet to the target host.
+
