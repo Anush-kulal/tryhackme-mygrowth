@@ -30,3 +30,5 @@ Scan might be helpful if you want to discover the devices on network without mak
 List scan 
 Not sending any packet to the target host.
 
+###Port scanning:who is listioning
+#Scanning TCP ports
