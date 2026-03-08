@@ -47,3 +47,12 @@ command : nmap -sS [IP_ADDRESS]
 *No 3 way handshaking
 *Fastest scan
 command : nmap -sU [IP_ADDRESS]
+
+#Limiting the target ports
+*by default nmap scans 1000 ports
+*we can limit the ports using -p by range
+>nmap -p 1-100 [IP_ADDRESS]
+
+*nmap -F [IP_ADDRESS]
+*Fast scan
+*Scan only 100 ports
