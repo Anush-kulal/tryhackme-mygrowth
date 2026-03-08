@@ -31,4 +31,19 @@ List scan
 Not sending any packet to the target host.
 
 ###Port scanning:who is listioning
-#Scanning TCP ports
+#Scanning TCP ports 
+
+Connect scan:
+*3 way handshaking
+command : nmap -sT [IP_ADDRESS]
+
+syn scan:
+*Only send SYN packet
+*No 3 way handshaking
+*Fastest scan
+command : nmap -sS [IP_ADDRESS]
+
+#Scanning UDP ports
+*No 3 way handshaking
+*Fastest scan
+command : nmap -sU [IP_ADDRESS]
