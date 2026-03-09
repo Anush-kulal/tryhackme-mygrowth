@@ -56,3 +56,53 @@ command : nmap -sU [IP_ADDRESS]
 *nmap -F [IP_ADDRESS]
 *Fast scan
 *Scan only 100 ports
+
+#QNA
+1.How many TCP ports are open on the target system at MACHINE_IP?
+Ans: 6
+
+2.Find the listening web server on MACHINE_IP and access it with your browser. What is the flag that appears on its main page?
+Ans: THM{SECRET_PAGE_38B9P6}
+
+
+-----------------------------------------------------------------------------------
+
+###Version Detection: Extract More Information
+
+##OS Detection
+-O guess the target device os
+
+>nmap -sS -O [IP_ADDRESS]
+
+##Service & Version Detection
+-sV detect the version of running services
+
+>nmap -sS -sV [IP_ADDRESS]
+
+*It detect the SSh server are running on the device it detect the version.
+
+-A  os detection,version detection,version detection,and traceroute
+
+-Pn  scan hosts that appear to be down
+
+Timing:How fast is fast
+
+-T0  paranoid          9.8 hours
+-T1  sneaky            27.53 minutes
+-T2  polite            40.56 seconds
+-T3  normal            0.15 seccond
+-T4  aggressive        0.13 seccond
+
+-T<0-5> Timing templates
+--min-parallelism <numprobes>   }
+--max-parallelism <numprobes>   }minimum and maximum number of parallel probes
+
+--min-rate <numprobes>  }
+--max-rate <numprobes>  }minimum and maximum number of packets per second
+
+--host-timeout <time>  }timeout after the host is down for this long
+
+#QNA1.What is the non-numeric equivalent of -T4?
+ANS : -T aggressive
+
+
