@@ -30,6 +30,12 @@ Scan might be helpful if you want to discover the devices on network without mak
 List scan 
 Not sending any packet to the target host.
 
+#QNA
+1.What is the last IP address that will be scanned when your scan target is 192.168.0.1/27?
+ANS :192.168.0.31
+
+-----------------------------------------------------------------------------------
+
 ###Port scanning:who is listioning
 #Scanning TCP ports 
 
@@ -85,6 +91,12 @@ Ans: THM{SECRET_PAGE_38B9P6}
 
 -Pn  scan hosts that appear to be down
 
+#QNA
+1.What is the name and detected version of the web server running on MACHINE_IP?
+ANS : lighttpd 1.4.74
+
+
+-----------------------------------------------------------------------------------
 Timing:How fast is fast
 
 -T0  paranoid          9.8 hours
@@ -106,3 +118,41 @@ Timing:How fast is fast
 ANS : -T aggressive
 
 
+-----------------------------------------------------------------------------------
+
+###Output controlling what you see
+
+Two main features:
+1. Showing additional information while a scan takes place
+2. Choosing the file format to save the scanned report
+
+##Verbosity & Debugging
+
+#Verbosity is giving a small details about program while scanning a ip,before final result.
+-v  Verbose output
+-vv  More verbose output
+-vvv  Even more verbose output
+-vvvv  Maximum verbosity
+
+#Debugging
+-d  Debugging output
+-dd  More debugging output
+-ddd  Even more debugging output
+-dddd  Maximum debugging output
+
+##Saving the output
+-oN  <filename> Normal output
+-oG  <filename> Grepable output
+-oX  <filename> XML output
+-oA  <filename> All output in different formats
+
+>nmap -sS [IP_ADDRESS] -oA output
+It save in all formate.
+
+#QNA1.What option must you add to your nmap command to enable debugging?
+ANS :-d
+
+-----------------------------------------------------------------------------------
+#QNA
+1.What kind of scan will Nmap use if you run nmap MACHINE_IP with local user privileges?
+ANS : Connect Scan
