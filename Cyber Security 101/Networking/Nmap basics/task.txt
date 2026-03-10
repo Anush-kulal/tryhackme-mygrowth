@@ -156,3 +156,6 @@ ANS :-d
 #QNA
 1.What kind of scan will Nmap use if you run nmap MACHINE_IP with local user privileges?
 ANS : Connect Scan
+
+
+---------------------------------------------------
