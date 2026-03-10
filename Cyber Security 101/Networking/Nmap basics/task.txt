@@ -9,7 +9,7 @@ Learn how to use nmap to discover live hosts,find open ports , and detect servic
 5.Control the timing.
 6.Formate the output.
 
-##ways thay uses nmap
+#ways thay uses nmap
 *Ip rangeusing '-':
 *Ip subnet using /:
 *Hostname:example.com
