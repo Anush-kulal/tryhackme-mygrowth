@@ -1,0 +1,20 @@
+###Cryptography basics
+*It is used for security purpose forcommunication.
+*It is used to secure data from unauthorized access.
+*It is used to verify the authenticity of data.
+*It is used to ensure the integrity of data.
+*It is used to ensure the non-repudiation of data.
+
+##Learning Objectives
+1.Cryptography key terms
+2.Importance of Cryptography
+3.Caesor cipher
+4.Standard symmbetric ciphers
+5.Standard asymmbetric ciphers
+6.Basic mathematics ciphers
+commanly used in Cryptography
+
+##Importanceof Cryptography
+*The term secure includes confidantiality & integrity of the communication.
+*PCI DSS (payment card indusrty data security standard)
+*In small organisation this is only used for transaction.
