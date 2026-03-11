@@ -14,7 +14,62 @@
 6.Basic mathematics ciphers
 commanly used in Cryptography
 
+----------------------------------------------------------------------------------------
+
 ##Importanceof Cryptography
 *The term secure includes confidantiality & integrity of the communication.
 *PCI DSS (payment card indusrty data security standard)
 *In small organisation this is only used for transaction.
+*But in big organisation it is used for sboth in rest(store) and in transit(sending).
+
+----------------------------------------------------------------------------------------
+
+##plain text to cipher text
+*Cipher means code language or encrypted symbol.
+*Cipher text is also a algorithm that converts plaintext to cipher and vice versa.
+
+----------------------------------------------------------------------------------------
+
+##Historical ciphers
+*Caesar cipher is a type of substitution cipher.
+*It is a simple and widely known encryption technique.
+*It is a monoalphabetic substitution cipher.
+*It is a simple substitution cipher.
+
+----------------------------------------------------------------------------------------
+
+##Types of ciphers
+1.Symmetric encryption
+2.Asymmetric encryption
+
+1.Symmetric encryption
+*It is uses same key for encryption and decryption.
+*Example of symmetric encryption is AES,DES,3DES.
+
+2.Asymmetric encryption
+*It is not uses same key for both encryption & decryption.
+*It uses two different keys for encryption and decryption.
+*It also uses public key and private key.
+*Public key is used for encryption and private key is used for decryption.
+*It is slower than symmetric encryption.Because it has larger key bit.
+
+*Example of asymmetric encryption is RSA,ECC,Diffie-Hellman.
+
+----------------------------------------------------------------------------------------
+
+##Basic math
+Two mathematical operation used in algorithm.
+1.XOR operation
+2.Modular operation
+
+1.XOR 
+
+A 0+ B
+0    0      0
+0    1      1   
+1    0      1
+1    1      0
+
+2.Modulo operation
+
+---------------------------------------------------------------------------------------
