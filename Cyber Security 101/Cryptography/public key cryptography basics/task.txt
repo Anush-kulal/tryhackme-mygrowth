@@ -1,0 +1,21 @@
+###Public key cryptography basics
+Authentication: You want to be sure you are talking to the right person.
+Authenticity: You can varify that information comes from the claimed source.
+Integrity: You want to be sure that the information has not been modified.
+Confidentiality: You want to be sure that only the right person can read the information.
+
+Assymmetric cryptography systems and applications:
+-RSA
+-Diffie-Hellman
+-SSH
+-SSL/TLS certificates
+-PGPand GPG
+
+##Common use of Assymmetric Encryption:
+##Analogs:
+Analogs------------         Cryptographic system
+Secrete code                Symmetricencryption cipher& key
+Lock                        Public key
+Lock's key                  Private key
+
+
