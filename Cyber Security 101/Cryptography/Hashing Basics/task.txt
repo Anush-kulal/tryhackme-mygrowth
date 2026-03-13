@@ -1,2 +1,4 @@
 ###Hashing Basics
-A hash value is a fixed size string an character
+A hash value is a fixed size string an character that is computed by a hash function.
+A hash function takes an input of an arbitrary size and produces a fixed size output.
+
