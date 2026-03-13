@@ -1,0 +1,2 @@
+###Hashing Basics
+A hash value is a fixed size string an character
