@@ -1,1 +1,8 @@
 ###John the Ripper:The basics
+#Learning Objectives
+
+1.Cracking Windows authentication hashes
+2.Crack /etc/shadow hashes
+3.Cracking password-protected Zip files
+4.Cracking password-protected RAR files
+5.Cracking SSH keys
