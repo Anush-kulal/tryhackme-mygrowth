@@ -16,4 +16,17 @@ sha512sum: It is a tool that is used to display the sha512 hash of a file.
 ##Hask collision: Means 2 different input gives the same output it is like pegion hole effect.
 2^number_of_bits=2^4=16
 
-##
+##Insecure password storage for authentication 
+#3 insecure practices:
+1.Storing passwords in plain text
+2.Storing password using deprecated encryption algorithms
+3. Storing password using weak hashing algorithm.
+
+*Storing passwordin plaintext is danger.
+
+##Using Hashing for secure pasword storage
+Hash.com ,crack stationnhash --> password
+*Without any salt.
+
+##Protecting
+
