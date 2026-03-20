@@ -108,3 +108,55 @@ Answer: whirlpool
 Correct Answer
 What is the cracked value of hash4.txt?
 Answer: colossal
+
+##Cracking windows authentication hashes
+
+What do we need to set the --format flag to in order to crack this hash?
+Answer: nt
+
+What is the cracked value of this password?
+Answer: mushroom
+
+##cracjing /etc/shadow hashes
+
+What is the root password?
+Answer: 1234
+
+##Single crack mode
+
+What is Joker’s password?
+Answer: Jok3r
+
+##Custom rules
+
+What do custom rules allow us to exploit?
+Answer: Password complexity predictability
+
+What rule would we use to add all capital letters to the end of the word?
+Answer: Az"[A-Z]"
+
+What flag would we use to call a custom rule called THMRules?
+Answer: --rule=THMRules
+
+##Cracking password-protected Zip files
+
+What is the password for the secure.zip file?
+Answer: pass123
+
+What is the contents of the flag inside the zip file?
+Answer: THM{w3ll_d0n3_h4sh_r0y4l}
+
+##Cracking password-protected RAR Archievs
+
+What is the password for the secure.rar file?
+Answer: password
+
+What are the contents of the flag inside the rar file?
+Answer: THM{r4r_4rch1ve5_th15_t1m3}
+
+##Cracking SSH keys with jhon
+What is the SSH private key password?
+Answer: mango
+
+
+
