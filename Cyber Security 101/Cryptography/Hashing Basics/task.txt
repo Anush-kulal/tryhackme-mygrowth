@@ -2,6 +2,7 @@
 A hash value is a fixed size string an character that is computed by a hash function.
 A hash function takes an input of an arbitrary size and returns a fixed size output.
 
+----------------------------------------------------------------------------------------------------
 ##Hash function
 *we cannot go back to the input by reversing the output.
 
@@ -13,8 +14,23 @@ sha512sum: It is a tool that is used to display the sha512 hash of a file.
 
 *For security purpose server thus not records it's hash value.
 
+----------------------------------------------------------------------------------------------------
+
 ##Hask collision: Means 2 different input gives the same output it is like pegion hole effect.
 2^number_of_bits=2^4=16
+
+#questions
+
+What is the SHA256 hash of the passport.jpg file in ~/Hashing-Basics/Task-2?
+Answer: 77148c6f605a8df855f2b764bcc3be749d7db814f5f79134d2aa539a64b61f02
+
+What is the output size in bytes of the MD5 hash function?
+Answer: 16
+
+If you have an 8-bit hash output, how many possible hash values are there?
+Answer: 256
+
+----------------------------------------------------------------------------------------------------
 
 ##Insecure password storage for authentication 
 #3 insecure practices:
@@ -24,9 +40,59 @@ sha512sum: It is a tool that is used to display the sha512 hash of a file.
 
 *Storing passwordin plaintext is danger.
 
+questions
+What is the 20th password in rockyou.txt?
+Answer: qwerty
+
+----------------------------------------------------------------------------------------------------
+
 ##Using Hashing for secure pasword storage
 Hash.com ,crack stationnhash --> password
 *Without any salt.
 
-##Protecting
+#Protecting against rainbow table.
 
+questions
+Manually check the hash “4c5923b6a6fac7b7355f53bfe2b8f8c1” using the rainbow table above.
+Answer: inS3CyourP4$$
+
+Crack the hash “5b31f93c09ad1d065c0491b764d04933” using an online tool.
+Answer: tryhackme
+
+Should you encrypt passwords in password-verification systems? Yea/Nay
+Answer: Nay
+
+
+----------------------------------------------------------------------------------------------------
+
+##recognising password Hashes
+(with offensive security perception)
+
+#Linux passwords
+prefix+salt+hash
+
+*ms windows passwords are hashed using NTLM
+
+*Ms password ,hashes are stored in SAM file.
+
+questions
+What is the hash size in yescrypt?
+Answer: 256
+
+What’s the Hash-Mode listed for Cisco-ASA MD5?
+Answer: 2410
+
+What hashing algorithm is used in Cisco-IOS if it starts with $9$?
+Answer: bcrypt
+
+----------------------------------------------------------------------------------------------------
+
+###password cracking
+*Cracking passwords with GPU's.
+*Cracking on vm.
+
+----------------------------------------------------------------------------------------------------
+
+##Hashing for integrity checking
+*Integrity checks
+*HMAC: Hash-based message authentication code
