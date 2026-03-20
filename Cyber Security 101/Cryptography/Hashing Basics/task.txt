@@ -1,4 +1,19 @@
 ###Hashing Basics
 A hash value is a fixed size string an character that is computed by a hash function.
-A hash function takes an input of an arbitrary size and produces a fixed size output.
+A hash function takes an input of an arbitrary size and returns a fixed size output.
 
+##Hash function
+*we cannot go back to the input by reversing the output.
+
+hexadump: It is a tool that is used to display the hexadecimal representation of a file.
+md5sum: It is a tool that is used to display the md5 hash of a file.
+sha1sum: It is a tool that is used to display the sha1 hash of a file.
+sha256sum: It is a tool that is used to display the sha256 hash of a file.
+sha512sum: It is a tool that is used to display the sha512 hash of a file.
+
+*For security purpose server thus not records it's hash value.
+
+##Hask collision: Means 2 different input gives the same output it is like pegion hole effect.
+2^number_of_bits=2^4=16
+
+##
