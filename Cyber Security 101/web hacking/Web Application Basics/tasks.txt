@@ -119,6 +119,26 @@ Content-Type|Content-Type: application/json|Describes what type or format of dat
 *JSON
 *XML
 
+*URL encoded (application/x-www-form-urlencoded)
+name=John&age=25&city=New%20York
+
+*Form data (multipart/form-data)
+It allows multiple data blocks.
+
+*JSON (application/json)
+{
+    "name": "John",
+    "age": 25,
+    "city": "New York"
+}
+
+*XML (application/xml)
+<person>
+    <name>John</name>
+    <age>25</age>
+    <city>New York</city>
+</person>
+
 #quetions
 1.Which HTTP request header specifies the domain name of the web server to which the request is being sent?
 Ans:Host
@@ -128,4 +148,38 @@ Ans:application/x-www-form-urlencoded
 
 3.Which part of an HTTP request contains additional information like host, user agent, and content type, guiding how the web server should process the request?
 Ans:Request Headers
+
+##HTTP response:status line and status code
+#status line 
+-1st line in every http response
+*HTTP version
+*Status code: 3 digit number
+*Reason phrase: human-readable text describing the status code (ok,notfound,internal server error)
+
+Status code and reason phrase
+100-199: Informational - Request received, continuing process
+200-299: Success - Request was successfully received, understood, and accepted
+300-399: Redirection - Further action needs to be taken to complete the request
+400-499: Client Error - The request contains bad syntax or cannot be fulfilled
+500-599: Server Error - The server failed to fulfill an apparently valid request
+
+100(continue): The request has been received and the client can continue with the request
+200(ok): The request has been successfully received, understood, and accepted
+201(created): The request has been successfully received, understood, and accepted
+204(no content): The request has been successfully received, understood, and accepted
+301(moved permanently): The request has been successfully received, understood, and accepted
+302(found): The request has been successfully received, understood, and accepted
+304(not modified): The request has been successfully received, understood, and accepted
+400(bad request): The request has been successfully received, understood, and accepted
+401(unauthorized): The request has been successfully received, understood, and accepted
+403(forbidden): The request has been successfully received, understood, and accepted
+404(not found): The request has been successfully received, understood, and accepted
+500(internal server error): The request has been successfully received, understood, and accepted
+502(bad gateway): The request has been successfully received, understood, and accepted
+503(service unavailable): The request has been successfully received, understood, and accepted
+504(gateway timeout): The request has been successfully received, understood, and accepted
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
