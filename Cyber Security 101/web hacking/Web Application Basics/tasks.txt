@@ -102,8 +102,7 @@ Ans:URL Path
 ##HTTP request:Headers and body
 #Request headers
 
-Request Headers
-Request Headers allow extra information to be conveyed to the web server about the request. Some common headers are as follows:
+*Request Headers allow extra information to be conveyed to the web server about the request. Some common headers are as follows:
 
 Common Request Headers
 
@@ -114,4 +113,19 @@ Referer|Referer: https://www.google.com|Indicates the URL from which the request
 Cookie|Cookie: user_type=student; room=introtowebapplication; room_status=in_progress|Information the web server previously asked the web browser to store is held in cookies.
 Content-Type|Content-Type: application/json|Describes what type or format of data is in the request.
 
+#Request body
+*URL encoded
+*form data
+*JSON
+*XML
+
+#quetions
+1.Which HTTP request header specifies the domain name of the web server to which the request is being sent?
+Ans:Host
+
+2.What is the default content type for form submissions in an HTTP request where the data is encoded as key=value pairs in a query string format?
+Ans:application/x-www-form-urlencoded
+
+3.Which part of an HTTP request contains additional information like host, user agent, and content type, guiding how the web server should process the request?
+Ans:Request Headers
 
