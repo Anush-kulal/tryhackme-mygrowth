@@ -24,7 +24,7 @@ Ans:web application firewall
 
 ##url(uniform resource locator)
 *scheme: http, https
-*user: username:password
+*(Optional)user: username:password
 *domain: website name
 *port: port number http:80, https:443
 *path: path to the resource
@@ -35,7 +35,8 @@ Ans:web application firewall
 1.Which protocol provides encrypted communication to ensure secure data transmission between a web browser and a web server?
 Ans:HTTPS
 
-2.What term describes the practice of registering domain names that are misspelt variations of popular websites to exploit user errors and potentially engage in fraudulent activities?
+2.What term describes the practice of registering domain names that are misspelt variations of popular websites to exploit user errors and 
+potentially engage in fraudulent activities?
 Ans:Typosquatting
 
 3.What part of a URL is used to pass additional information, such as search terms or form inputs, to the web server?
