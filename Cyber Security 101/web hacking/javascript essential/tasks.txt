@@ -1,3 +1,78 @@
 ###javascript essential
-*
+*JavaScript allows developers to add interactive feature.
+*Primary it is used with HTML and CSS.
+
 ##essential concept
+#Variables
+*There are 3 ways present to declare variable var,let & const
+*var is function scoped
+*let is block scoped
+*const is block scoped
+
+#Data Types
+*String
+*Number
+*Boolean
+*Object
+*Array
+*Null
+*Undefined
+
+#Function
+*It is a block of code designed to perform specific task.
+Example:
+function greet(name){
+    console.log("Hello " + name);
+}
+greet("John");
+
+#Loops
+*For loop
+*While loop
+*Do-while loop
+
+#questions
+1.What term allows you to run a code block multiple times as long as it is a condition?
+Ans:loop
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+##Javascript overview
+*JavaScript is a high-level, interpreted programming language that is primarily used to create interactive and dynamic web pages.
+*It is a scripting language that is executed by the web browser on the client-side.
+
+console.log("Hello World"); is used to print.
+
+#quetions
+1.What is the code output if the value of x is changed to 10?
+Ans:The result is: 20
+
+2.Is JavaScript a compiled or interpreted language?
+Ans:Interpreted
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+##Integrating JS in HTML 
+#Internal JS
+*Embedding js in html by using <script> tag.
+
+#External JS
+*Embedding js in html by using <script src="file.js"></script> tag.
+
+#questions
+1.Which type of JavaScript integration places the code directly within the HTML document?
+Ans:Internal
+
+2.Which method is better for reusing JS across multiple web pages?
+Ans:External
+
+3.What is the name of the external JS file that is being called by external_test.html?
+Ans:thm_external.js
+
+4.What attribute links an external JS file in the <script> tag?
+Ans:src
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+##
+
