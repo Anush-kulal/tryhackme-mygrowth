@@ -78,5 +78,77 @@ Ans:src
 #Dialogue boxes on website
 *Java script has built in function like alert, prompt, and confirm.
 
-Alert
+#Alert
+*It is like alert or warning message, with "ok" button.
+Example:
+alert("Hello World");
+
+#prompt
+*It is used to get the input from the user.
+Example:
+prompt("Enter your name");
+
+#confirm
+*It is used to get the confirmation from the user.
+Example:
+confirm("Are you sure?");
+
+#questions
+1.In the file invoice.html, how many times does the code show the alert Hacked?
+Ans:5
+
+2.Which of the JS interactive elements should be used to display a dialogue box that asks the user for input?
+Ans:prompt
+
+3.If the user enters Tesla, what value is stored in the carName= prompt("What is your car name?")? in the carName variable?
+Ans:Tesla
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+##Bypassing control flow statements
+#conditional statements
+if-else, switch
+
+#questions
+1.What is the message displayed if you enter the age less than 18?
+Ans:You are a minor.
+
+2.What is the password for the user admin?
+Ans:ComplexPassword
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+##Exploring minified files
+#minification 
+*It is a process of removing unnecessary characters,spaces ,line breaks and comments from the code.
+*It is used to reduce the file size.
+*It is also used to load the code faster.
+*It is also used to make the code harder to read.
+
+*Obfuscation is same as minification but it makes it harder to read like adding undesired code, renaming variables and functions, etc.
+
+#questions
+1.What is the alert message shown after running the file hello.html?
+Ans:Welcome to THM
+
+2.What is the value of the age variable in the following obfuscated code snippet?
+age=0x1*0x247e+0x35*-0x2e+-0x1ae3;
+Ans:21
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+##Best practice
+*Avoid Relying on Client-Side Validation Only
+*Refrain from Adding Untrusted Libraries
+*Avoid Hardcoded Secrets
+*Minify and Obfuscate Your JavaScript Code
+
+#questions
+1.Is it a good practice to blindly include JS in your code from any source (yea/nay)?
+Ans:nay
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+
+
 
