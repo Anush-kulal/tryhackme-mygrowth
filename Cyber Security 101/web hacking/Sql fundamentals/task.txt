@@ -1,0 +1,2 @@
+###Sql fundamentals
+*SQL is a database management system.
