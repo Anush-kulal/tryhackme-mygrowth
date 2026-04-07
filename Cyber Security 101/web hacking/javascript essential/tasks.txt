@@ -74,5 +74,9 @@ Ans:src
 
 ------------------------------------------------------------------------------------------------------------------------------------------- 
 
-##
+##Abusing Dialogue Functions
+#Dialogue boxes on website
+*Java script has built in function like alert, prompt, and confirm.
+
+Alert
 
