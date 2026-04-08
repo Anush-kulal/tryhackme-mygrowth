@@ -1,2 +1,13 @@
 ###Sql fundamentals
 *SQL is a database management system.
+##Database 101
+Types
+#Relational database
+Storing data information in structured format.
+
+#Non-relational database
+Storing data information in unstructured format.
+
+#Tables,rows,columns
+
+
