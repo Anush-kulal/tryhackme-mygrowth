@@ -47,3 +47,8 @@ end user <------>Database
 -It is so software
 -
 - 
+
+
+
+#
+*SQL is practiced using terminal of virtual machine 
