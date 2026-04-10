@@ -44,5 +44,35 @@ SQL is a language that is used to communicate with the database management syste
 end user <------>Database
 
 *Benefits of Sql and Relational DB
+-It's fast
+-Easy to Learn
+-Reliable
+-Flexible
 
+>mysql -u root -p
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+##Data base and table statements
+
+>CREATE DATABASE <database_name>;
+>USE <database_name>;
+>SHOW TABLES;
+>DROP DATABASE <database_name>;
+
+>CREATE TABLE <table_name> (<column_name> <data_type>, <column_name> <data_type>, ...);
+>SHOW TABLES;
+>DESCRIBE <table_name>;
+It is used to check or understand the table's characteristics.
+
+>ALTER TABLE <table_name> ADD <column_name> <data_type>;
+It is used to add a column to the table.
+
+>DROP TABLE <table_name>;
+
+##CRUD operations
+CRUD (Create,Read,Update,Delete)
+
+#Create operations
+>INSERT INTO <table_name> (<column_name>, <column_name>, ...) VALUES (<value1>, <value2>, ...);
 
