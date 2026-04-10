@@ -44,6 +44,7 @@ SQL is a language that is used to communicate with the database management syste
 end user <------>Database
 
 *Benefits of Sql and Relational DB
+<<<<<<< HEAD
 -It's fast
 -Easy to Learn
 -Reliable
@@ -52,3 +53,13 @@ end user <------>Database
 >mysql -u root -p
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
+=======
+-It is so software
+-
+- 
+
+
+
+#
+*SQL is practiced using terminal of virtual machine 
+>>>>>>> 01c5fe49a8ffe33ea97971ed1f29f83de3f85ea7
