@@ -44,6 +44,11 @@ SQL is a language that is used to communicate with the database management syste
 end user <------>Database
 
 *Benefits of Sql and Relational DB
--It is so software
--
-- 
+-It's fast
+-Easy to Learn
+-Reliable
+-Flexible
+
+>mysql -u root -p
+
+---------------------------------------------------------------------------------------------------------------------------------------------
