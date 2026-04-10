@@ -76,3 +76,24 @@ CRUD (Create,Read,Update,Delete)
 #Create operations
 >INSERT INTO <table_name> (<column_name>, <column_name>, ...) VALUES (<value1>, <value2>, ...);
 
+#Read operations
+
+>SELECT * FROM <table_name>;
+To Read all the data from the table.
+
+>SELECT <column_name>, <column_name>, ... FROM <table_name>;
+To Read specific columns from the table.
+
+>SELECT * FROM <table_name> WHERE <condition>;
+To Read specific rows from the table.
+
+#Update operations
+>UPDATE <table_name> SET <column_name> = <value>, <column_name> = <value>, ... WHERE <condition>;
+To Update specific rows in the table.
+
+#Delete operations
+>DELETE FROM <table_name> WHERE <condition>;
+To Delete specific rows from the table.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
