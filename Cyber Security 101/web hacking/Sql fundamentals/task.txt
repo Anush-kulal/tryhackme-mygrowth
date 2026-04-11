@@ -96,4 +96,6 @@ To Update specific rows in the table.
 To Delete specific rows from the table.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
+ 
 
+DISTINCT Clause
