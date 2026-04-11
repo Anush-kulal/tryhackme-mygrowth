@@ -1,4 +1,4 @@
-###Sql fundamentals
+ji###Sql fundamentals
 *SQL is a database management system.
 ##Database 101
 Types
@@ -97,5 +97,5 @@ To Delete specific rows from the table.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
  
-
-DISTINCT Clause
+##Clause
+#DISTINCT Clause
