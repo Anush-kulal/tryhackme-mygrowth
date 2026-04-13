@@ -99,6 +99,8 @@ To Delete specific rows from the table.
  
 ##Clause
 #DISTINCT Clause
-
+#Group by
+#Order by
+#Having
 
 ---------------------------------------------------
