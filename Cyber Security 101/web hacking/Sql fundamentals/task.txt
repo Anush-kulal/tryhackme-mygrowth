@@ -103,8 +103,24 @@ To Delete specific rows from the table.
 #Order by
 #Having
 
-<<<<<<< HEAD
 ##Clauses
-=======
+#DISTINCT Clause
+*It is used to know what type of data and also used to manipulated how it should be retrieved sorted.
+>SELECT DISTINCT <column_name> FROM <table_name>;
+
+#GROUP BY Clause
+*It is used to group rows that have the same values in a specified column.
+>SELECT <column_name>, <column_name>, ... FROM <table_name> GROUP BY <column_name>;
+
+#ORDER BY Clause
+*It is used to sort the result set in ascending or descending order.
+*ASC is used to sort in ascending order.
+*DESC is used to sort in descending order.
+>SELECT <column_name>, <column_name>, ... FROM <table_name> ORDER BY <column_name> ASC/DESC;
+
+#HAVING Clause
+*It is used to filter the result set based on a specified condition.
+>SELECT <column_name>, <column_name>, ... FROM <table_name> HAVING <condition>;
+ex: SELECT name, COUNT(*) FROM books GROUP BY name HAVING name like '%Hack%';
+
 ---------------------------------------------------
->>>>>>> 98a27a4531f58c30ede3792f3feb83eeb8899269
