@@ -1,4 +1,4 @@
-###Sql fundamentals
+ji###Sql fundamentals
 *SQL is a database management system.
 ##Database 101
 Types
@@ -96,5 +96,15 @@ To Update specific rows in the table.
 To Delete specific rows from the table.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
+ 
+##Clause
+#DISTINCT Clause
+#Group by
+#Order by
+#Having
 
+<<<<<<< HEAD
 ##Clauses
+=======
+---------------------------------------------------
+>>>>>>> 98a27a4531f58c30ede3792f3feb83eeb8899269
