@@ -123,4 +123,68 @@ To Delete specific rows from the table.
 >SELECT <column_name>, <column_name>, ... FROM <table_name> HAVING <condition>;
 ex: SELECT name, COUNT(*) FROM books GROUP BY name HAVING name like '%Hack%';
 
----------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+##Operators
+#Logical Operators (where)
+(true or false)
+
+-like Operators
+>SELECT * FROM <table_name> WHERE <column_name> LIKE '<pattern>';
+
+-and operator
+>SELECT * FROM <table_name> WHERE <condition1> AND <condition2>;
+
+-or operator
+>SELECT * FROM <table_name> WHERE <condition1> OR <condition2>;
+
+#comparison operators
+-Equal to
+>SELECT * FROM <table_name> WHERE <column_name> = <value>;
+
+-Not equal to
+>SELECT * FROM <table_name> WHERE <column_name> != <value>;
+
+-Greater than
+>SELECT * FROM <table_name> WHERE <column_name> > <value>;
+
+-Less than
+>SELECT * FROM <table_name> WHERE <column_name> < <value>;
+
+-Greater than or equal to
+>SELECT * FROM <table_name> WHERE <column_name> >= <value>;
+
+-Less than or equal to
+>SELECT * FROM <table_name> WHERE <column_name> <= <value>;
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+##Functions
+#String functions
+-concat() function is used to concatenate two or more strings.
+>SELECT concat(column_name, column_name) FROM table_name;
+
+-group_concat() function is used to concatenate two or more strings.
+>SELECT group_concat(column_name) FROM table_name;
+
+-substring() function is used to extract a substring from a string.
+>SELECT substring(column_name, start, length) FROM table_name;
+
+-length() function is used to get the length of a string.
+>SELECT length(column_name) FROM table_name;
+
+#Aggregate functions
+-count() function is used to count the number of rows.
+>SELECT count(column_name) FROM table_name;
+
+-sum() function is used to sum the values of a column.
+>SELECT sum(column_name) FROM table_name;
+
+-min() function is used to get the minimum value of a column.
+>SELECT min(column_name) FROM table_name;
+
+-max() function is used to get the maximum value of a column.
+>SELECT max(column_name) FROM table_name;
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
