@@ -11,3 +11,27 @@ burp suit framework
 3.Burpsuit enterprise
 
 here we are using burpsuit community.
+
+-proxy:
+*It is famouse aspect of burpsuit.
+*It enables the intercepting and modifying of web traffic between the browser and the web server.
+
+-Repeater:
+*It is used to capturing, modifying and sending the same request multiple times.
+
+-Intruder:
+*It is used to automate the process of sending the same request multiple times.
+*Like brute force attack.
+
+-Decoder:
+*It is used to decode the web traffic.
+*and encode the payload.
+
+-Comparer:
+*It is used to compare the data either in words or bytes level.
+
+-Sequencer:
+*It is used to analyze the randomness of the data.
+
+##The dashboard:
+*
