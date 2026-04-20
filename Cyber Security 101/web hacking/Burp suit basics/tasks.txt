@@ -65,4 +65,6 @@ Taking Control:
 Capture and Logging
 WebSocket Support:
 
-
+Some Notable Features in the Proxy Settings
+RespMatch and Replace:
+Match and Replace Rules:
