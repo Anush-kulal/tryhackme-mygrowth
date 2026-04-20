@@ -33,8 +33,12 @@ here we are using burpsuit community.
 -Sequencer:
 *It is used to analyze the randomness of the data.
 
+-------------------------------------------------------------------------------------------------------------
+
 ##The dashboard:
 *
+-------------------------------------------------------------------------------------------------------
+
 ##Navigation:
 1.Module selection:
 At top of the dashboard we have different modules.
@@ -43,6 +47,22 @@ At below of the module selection we have different sub tabs.
 3.Main window:
 At below of the sub tabs we have main window.
 
+------------------------------------------------------------------------------------------------------------------
+
 ##Options:
+global setting 
+project setting
+
+------------------------------------------------------------------------------------------------------------------
+
+##Introduction to Burp suit proxy:
+*Proxy is a server that acts as an intermediary between the client and the web server.
+*It is used to intercept and modify the web traffic.
+
+#Key Points to Understand About the Burp Proxy
+Intercepting Requests:
+Taking Control:
+Capture and Logging
+WebSocket Support:
 
 
