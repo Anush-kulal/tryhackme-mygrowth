@@ -1,0 +1,10 @@
+### Log fundamentals
+
+
+#Introduction to logs
+
+#Types of logs 
+
+#Windows event log analysis
+
+#Web server access log analysis
