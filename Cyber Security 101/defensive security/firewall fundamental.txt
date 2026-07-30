@@ -1,0 +1,18 @@
+###Firewall fundamentals
+##Types of Firewalls (osi):
+1. Stateless firewall : It comes in Layer 3 and 4 
+2.stateful Firewall:Layer 3 and 4 
+3.proxyfirewall : It comes in 7th layer of osi model and it can read the contents in the data packets
+4.next generation firewall : Layer 3 to 7
+
+#Rules in Firewall:
+#Types of Actions:
+Allow, Danny, forward 
+
+#Directionalities of Rules:
+Inbound rules, outbound rules, forward rules
+
+##Windows defender firewall
+##Linux ip table firewall
+-Netfilter
+-ufw
