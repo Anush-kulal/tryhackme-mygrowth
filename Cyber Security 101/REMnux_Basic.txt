@@ -1,3 +1,9 @@
 ###REMnux b Basically this tool is It's like a sandbox or virtual machine where we try to run the malicious software which we need to run this software in the security environment so that purpose we can use this tool like RE maxim.
 #Basically OLE is a file formatted used to store the multiple types of file format like documents associated and presentations in a single file.
 #OLE2 is a Python tool used extract and examine the content present in the OLE format file.
+
+## Fake Network to AID analysis
+# When inet SIM is used to simulate the fake Internet I think in a closed lap like STD PST PS or DNS any type of traffic can be simulated in the environment like HTTP HTTPS FTP and any other type of traffic can be simulated in the environment.
+# Basically it is used to prevent the market getting access into the actual real Internet Like like malware thinks that it is a real Internet and it is do the things which is made for made for it and for that we use inetSIM.
+## Memory investigation:Evidence preprocessing
+# Every digital forensic procedure there is procedure called preprocessing which is used to save the all the evidences in the text or just inform it so that for the future perfectly purpose it is used to easy to understand.
