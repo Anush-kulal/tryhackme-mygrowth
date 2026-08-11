@@ -1,0 +1,3 @@
+###REMnux b Basically this tool is It's like a sandbox or virtual machine where we try to run the malicious software which we need to run this software in the security environment so that purpose we can use this tool like RE maxim.
+#Basically OLE is a file formatted used to store the multiple types of file format like documents associated and presentations in a single file.
+#OLE2 is a Python tool used extract and examine the content present in the OLE format file.
