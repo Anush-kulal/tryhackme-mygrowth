@@ -1,0 +1,5 @@
+###Flare virtual machine
+## Arsenal of tool
+# Basically Flare virtual machine is a is a software the software are a virtual machine which is uh stand for Which is stand for forensic logic analysis and reverse engineering Basically it is a virtual machine which is used to analyze the malware software or malware file with lots of I had this virtual machine is used by the many of the roles like incident responders forensic investigators penetration tester and malware analyst and also the reverse engineer.
+# Majority the this virtual machine is used for reverse engineering and debugging purpose and dissemble the and decompiler and for used for static and dynamic analysis Then the forensic and incident response network analysis file analysis scripting and automation and then the sysinternalsm suite.
+# Basically DD which is the full form for for dynamic link library It is a library that is used by the multiple functions or a process like in that library multiple things are present like information data and other things and all from there multiple processor functions can access the access those information at the same time basically it is a library type container.
