@@ -13,3 +13,8 @@
 *Bell-lapdula model: confidentiality
 *Biba model: intergrity
 *clark-wilson model: integrity
+
+#ISO/IEC- 19249:2017
+
+#Zerotrust vs Trust but varify
+
