@@ -1,0 +1,5 @@
+###owasp top 10 2025:IAAA Failures
+# In this field we will learn failure in the Identification authentication authorization and accountability.
+First one is a zero1 which is broken access control
+Second one is authentication failur
+3rd one is logging and alert failure
