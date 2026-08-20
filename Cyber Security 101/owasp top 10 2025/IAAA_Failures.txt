@@ -3,3 +3,11 @@
 First one is a zero1 which is broken access control
 Second one is authentication failur
 3rd one is logging and alert failure
+
+##IAAA
+Basically I triple A is a simple way to think about how user and their actions are verified on the application Like each item plays a crucial role and it isn't possible to skip a level that means if a previous item isn't being performed you cannot perform the later times the four items are:
+Identity the IT which is a unique account that represents a person's or services
+Authentication proving that ident like password on
+Authorization which is what that identity is allowed to do
+Accountability record and alert on who did what And from where
+
