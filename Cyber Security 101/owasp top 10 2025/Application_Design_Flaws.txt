@@ -3,3 +3,15 @@ First one is security misconfigurations
 second one is software supply chain failures 
 third one is cryptographic failures
 fourth one is insecure design
+
+# Security Misconfigurations
+Security misconfiguration happens Sir when systems servers or applications are deployed with unsafe default incomplete settings or exposed services these are not codebugs but mistakes in the how environment software or network is set up they create easy entry point for attackers.
+
+#software supply chain failures
+Software supply chain failures happens when applications rely on components libraries services or models that are compromised outdated or improperly verified These weaknesses are Inherent in your code but rather than in a software and tools you depends on Attackers say Floyd this week links to inject malicious code bypass security and steal sensitive data.
+
+#cryptographic failures
+Cryptographic failures happens when Encryption is used incorrectly or not at all this includes weak algorithms hard coded keys poor key hand are unencrypted sensitive data these flaws let attackers access information that should be private.
+
+#Insecure Design
+Insecure design happens Lord Logic car architecture is built into a system from the start These flaws stem from scrapped tut modeling No redecent recruitments are review or accidental errors moreover with the introduction of AI assistance AA Except yeah in security design developers of an assume that model charges correct or predictable are the data the code they produce is law free when an AI system can generate queries write codes or classify user without limits The risk is built into the design leading to poor architectural patterns.
