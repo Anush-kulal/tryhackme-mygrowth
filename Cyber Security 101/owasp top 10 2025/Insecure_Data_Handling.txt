@@ -1,0 +1,21 @@
+###Insecure Data Handling
+First one is cryptographic failures 
+second one is injection 
+third one is software or data integrity failures
+
+#cryptographic failures 
+Cryptographic failures happens when sensitive data is not adequately protected due to lack of encryptions Faulty implementations are insufficient security measures This includes This includes storing password without hashing using outdated or weak algorithm such as MD5 SHA 1 or DES exposing encryption keys or failing to secure data during transmission.
+An incredible example of this an application of service rolling their own cryptography rather than using well established vetted and verifiable Secure encryption algorithm.
+
+#Injection
+Injection occurs when an application takes user input missandel seat Instead of processing the input securely the application passes it directly into a system that can execute commands or queries such as database ashley Are templating engine or API You're likely familiar with S Injection where an attacker INS and SQL query into an applications logic such as login which then gets processed by the database This happens when the web application fails to sanitize user input and instead uses it to construct thick query for instance taking the username input on a login form and directly using it to query the database.
+The following are some classic examples of injection that you may be familiar with:
+SQL injection command injection AI prompt server side template injection.
+
+Unfortunately even in 2025 these types of attacks remain relevant as evidence said by the inclusion of injection on the opaque Top 10 list not just once in year 2021 but wise by 2025 injection is a highly sever severity and should be treated accordingly.
+
+#Software or Data Integrity Failures
+Or data it assumes are safe without verifying their authenticity integrity or origin This includes a testing software updates without verification loading scripts or configuration file from untrusted sources failing to validate data that impact application logic or accepting data such as binaries templates or jason file without confirming whether it's has been altered.
+
+
+
