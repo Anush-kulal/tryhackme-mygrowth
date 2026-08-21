@@ -1,8 +1,8 @@
 ###owasp top 10 2025:IAAA Failures
 # In this field we will learn failure in the Identification authentication authorization and accountability.
-First one is a zero1 which is broken access control
-Second one is authentication failur
-3rd one is logging and alert failure
+First one is A03:2025 which is broken access control
+Second one is A04:2025 authentication failur
+3rd one is A08:2025 logging and alert failure
 
 ##IAAA
 Basically I triple A is a simple way to think about how user and their actions are verified on the application Like each item plays a crucial role and it isn't possible to skip a level that means if a previous item isn't being performed you cannot perform the later times the four items are:

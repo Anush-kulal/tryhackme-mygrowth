@@ -1,0 +1,5 @@
+###Application Design Flaws
+First one is security misconfigurations 
+second one is software supply chain failures 
+third one is cryptographic failures
+fourth one is insecure design
